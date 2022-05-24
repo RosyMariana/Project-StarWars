@@ -1,0 +1,87 @@
+@import url(//db.onlinewebfonts.com/c/0c724f6aa457310440cf8949c615cbd7?family=Star+Jedi);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media ( prefers-reduced-motion : no-preference ) {
+
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#titulo {
+  font-family: 'Star Jedi', arial;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px black;
+  left: 30%;
+  position: absolute;
+  top: 0%;
+}
+
+#teste {
+  left: 5%;
+  position: absolute;
+  top: 20%;
+}
+
+#teste, #teste3{  
+  /* color: #fed34f !important; */
+  transform: perspective(300px) rotateX(25deg);
+  text-align: justify;
+}
+
+#teste3 {
+  left: 5%;
+  position: absolute;
+  top: 25%;
+}
+
+table {
+  border-top: 1px solid white;
+  position: absolute;
+  top: 40%;
+  font-family: "News Cycle", sans-serif;
+}
+
+body {
+  background-image: url('https://geekblog.com.br/wp-content/uploads/2020/12/2560%C3%971440-Second-Star-Wars-wallpaper-1024x576.jpg');
+  background-size: 1700px 1200px;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid white;
+}
+
+@keyframes App-logo-spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
